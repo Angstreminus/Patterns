@@ -60,4 +60,6 @@ func mainBuilder() {
 	destroyer := &ShipBuilder{}
 
 	navyPort := &NavalPort{ship: *destroyer}
+
+	navyPort.Build("titan", "s300", "bi250mx6000", 204, 270)
 }
